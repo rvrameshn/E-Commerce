@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["DOM", "ES2020"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "outDir":"./dist",
+    "paths": {
+      "@features": ["packages/features/index.ts"],
+      "@features/*": ["packages/features/*/src"],
+      "shared": ["packages/shared/src"],
+      "shared/*": ["packages/shared/src/*"],
+      "store": ["packages/store/src"],
+      "store/*": ["packages/store/src/*"]
+    }
+  }
+}

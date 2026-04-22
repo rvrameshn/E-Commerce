@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "../../",
+    "paths": {
+      "@features/products": ["packages/features/products"],
+      "@features/home": ["packages/features/home"],
+      "@features/cart": ["packages/features/cart"],
+      "shared/*": ["packages/shared/src/*"],
+      "store/*": ["packages/store/src/*"]
+    },
+    "outDir": "public/dist"
+  },
+  "include": ["src", "../packages/**/*"]
+}

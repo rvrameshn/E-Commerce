@@ -1,0 +1,10 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "public/dist",
+    "rootDir": "src",
+    "declaration": true,
+    "composite": true
+  },
+  "include": ["src", "../../shared/src/ui/components/HeaderComponent.tsx", "../cart/src/reducers/cartReducer.ts", "../cart/src/actions/cartActions.ts"]
+}
