@@ -10,7 +10,8 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "typeRoots": ["./node_modules/@types", "./types"],
-    "outDir":"./dist",
+    "outDir": "./dist",
+    "types": ["jest", "node"],
     "paths": {
       "@features": ["packages/features/index.ts"],
       "@features/*": ["packages/features/*/src"],

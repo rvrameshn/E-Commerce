@@ -77,11 +77,6 @@ ecommerce/
 │       │   ├── store.ts
 │       │   └── index.ts
 │       └── package.json
-├── types/
-│   └── global.d.ts             # Global type definitions
-├── .github/
-│   └── workflows/
-│       └── ci.yml              # GitHub Actions CI/CD
 ├── package.json
 ├── tsconfig.base.json
 ├── webpack.config.js
